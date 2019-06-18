@@ -6,12 +6,12 @@ html {
 }
 
 .firstsection {
-    height: 100%;
     width: 100%;
     margin: 0;
     overflow: auto;
     background-image: url(../images/landing-page.jpg);
     background-size: cover;
+    padding-bottom: 100px;
 }
 
 .navbar {
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 .text-home {
-    width: 70%;
+    width: 60%;
     float: left;
     margin: 0;
     padding-top: 100px;
@@ -84,7 +84,7 @@ nav ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     line-height: 65px;
-    padding: 30px 150px 30px 0px;
+    padding: 30px 50px 30px 0px;
 }
 
 .text-home p {
@@ -106,7 +106,7 @@ nav ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     line-height: 24px;
-    padding: 0px 200px 70px 0px;
+    padding: 0px 80px 70px 0px;
 
 }
 
@@ -114,10 +114,10 @@ nav ul li a:hover {
     width: 25%;
     background-color: #22233c;
     float: left;
-    margin-right: 15px;
     overflow: auto;
     border-radius: 5px;
     padding: 12px;
+    margin-right: 15px;
 }
 
 .iconbox h5 {
@@ -140,4 +140,81 @@ nav ul li a:hover {
     background-color: #1ea9fe;
 }
 
+.homeimg {
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding-top: 10px;
+}
 
+.profileimg {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/home-mobile.png);
+    background-size: cover;
+    background-position: left;
+    margin: 0;
+}
+
+.secondsection {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.headabout {
+    width: 90%;
+    margin: 0;
+    overflow: auto;
+}
+
+.headabout h2 {
+    color: #212529;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.container-card {
+    width: 100%;
+    overflow: auto;
+}
+
+.container-about {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+
+}
+
+.container-desc {
+    width: 33.3%;
+    float: left;
+}
+.card-image{
+    text-align: center;
+}
+
+.card-document h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.card-document p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+    padding:10px 40px;
+    
+}
