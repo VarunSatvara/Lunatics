@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 }
 
-.iconbox {
+.samebox {
     width: 25%;
     background-color: #22233c;
     float: left;
@@ -120,7 +120,7 @@ nav ul li a:hover {
     margin-right: 15px;
 }
 
-.iconbox h5 {
+.samebox h5 {
     float: right;
     color: #fff;
     font-size: 18px;
@@ -136,7 +136,7 @@ nav ul li a:hover {
     font-size: 12px;
 }
 
-.iconbox:hover {
+.samebox:hover {
     background-color: #1ea9fe;
 }
 
@@ -192,8 +192,10 @@ nav ul li a:hover {
 .container-desc {
     width: 33.3%;
     float: left;
+    padding: 20px 0px 40px 0px;
 }
-.card-image{
+
+.card-image {
     text-align: center;
 }
 
@@ -205,6 +207,7 @@ nav ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     text-align: center;
+    padding: 20px 0px 5px 0px;
 }
 
 .card-document p {
@@ -215,6 +218,46 @@ nav ul li a:hover {
     letter-spacing: normal;
     margin: 0;
     text-align: center;
-    padding:10px 40px;
-    
+    padding: 10px 40px;
+}
+
+.samebg {
+    color: #fff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.bg1 {
+    background-image: url(../images/service-shape-1.png);
+}
+
+.bg2 {
+    background-image: url(../images/service-shape-2.png);
+}
+
+.bg3 {
+    background-image: url(../images/service-shape-3.png);
+}
+.container-profile{
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+.profile{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.starprofile{
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.useprofile{
+    width: 50%;
+    float: right;
+    margin: 0;
 }
