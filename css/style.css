@@ -263,7 +263,7 @@ nav ul li a:hover {
     width: 50%;
     float: left;
     margin: 0;
-    padding: 200px 0px;
+    padding: 120px 0px;
 }
 
 .store {
@@ -349,7 +349,7 @@ nav ul li a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../images/service-shape-1.png);
-    padding: 50px;
+    padding: 35px;
 }
 
 .bg5 {
@@ -357,7 +357,7 @@ nav ul li a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../images/space-2.png);
-    padding: 48px;
+    padding: 35px;
 }
 
 .bg6 {
@@ -365,5 +365,13 @@ nav ul li a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../images/space-3.png);
-    padding: 48px;
+    padding: 35px;
+}
+
+.bgdoc h3 {
+    color: #56576e;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
 }
