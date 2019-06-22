@@ -5,6 +5,10 @@ html {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .firstsection {
     width: 100%;
     margin: 0;
@@ -111,7 +115,7 @@ nav ul li a:hover {
 }
 
 .iconbox {
-    width: 25%;
+    width: 35%;
     background-color: #22233c;
     float: left;
     overflow: auto;
@@ -127,9 +131,9 @@ nav ul li a:hover {
     font-weight: 400;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
-    padding: 0px 18px;
     margin: 0;
     line-height: 20px;
+    padding-left: 20px;
 }
 
 .small {
@@ -162,13 +166,13 @@ nav ul li a:hover {
     margin: 0;
 }
 
-.headabout {
+.samehead {
     width: 90%;
     margin: auto;
     overflow: auto;
 }
 
-.headabout h2 {
+.samehead h2 {
     color: #212529;
     font-size: 36px;
     font-weight: 700;
@@ -286,7 +290,7 @@ nav ul li a:hover {
 }
 
 .smallfnt {
-    padding-right: 100px;
+    padding-right: 80px;
     font-size: 12px;
 }
 
@@ -344,28 +348,23 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.bg4 {
+.samebgone {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../images/service-shape-1.png);
     padding: 35px;
+}
+
+.bg4 {
+    background-image: url(../images/service-shape-1.png);
 }
 
 .bg5 {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-image: url(../images/space-2.png);
-    padding: 35px;
 }
 
 .bg6 {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-image: url(../images/space-3.png);
-    padding: 35px;
 }
 
 .bgdoc h3 {
@@ -374,4 +373,143 @@ nav ul li a:hover {
     font-weight: 700;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
+}
+
+card-lunatics {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.lunatics-size {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+}
+
+.lunatic-box {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.desc-box {
+    padding: 20px 20px 20px 30px;
+    box-shadow: 0 0 30px -12px #c9c9c9;
+}
+
+.desc-box:hover {
+    box-shadow: 0 0 30px -5px #c9c9c9;
+}
+.desc-box h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+}
+
+.desc-box p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    line-height: 25.6px;
+    padding-right: 50px;
+}
+
+.sameicon {
+    height: 60px;
+    width: 60px;
+    display: table;
+    border-radius: 60px;
+}
+
+.desc-icon1 {
+    background-color: #2d5baf;
+}
+
+.desc-icon2 {
+    background-color: #23a8c0;
+}
+
+.desc-icon3 {
+    background-color: #8822bf;
+}
+
+.desc-icon4 {
+    background-color: #c02383;
+}
+
+.desc-icon5 {
+    background-color: #e09f25;
+}
+
+.desc-icon6 {
+    background-color: #22bf88;
+}
+
+.icon1 {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.foursection {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.videoframe {
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+
+.vidphoto {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    padding: 90px 0px;
+}
+
+.vidicon {
+    color: #fff;
+    height: 5px;
+    width: 5px;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+    background-color: #1ea9fe;
+    padding: 20px 70px 50px 50px;
+    border-radius: 5px;
+
+}
+
+.vidicon:hover {
+    color: red;
+    background-color: #fff;
+}
+.fivesection{
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+.funnyimg{
+    width:25%;
+    float: left;
+    margin: 0;
+}
+.colorimg{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
 }
