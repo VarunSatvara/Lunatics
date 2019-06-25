@@ -506,32 +506,277 @@ nav ul li a:hover {
     overflow: auto;
 }
 
-.fivepart {
+.imageblock {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.blockbox {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 0px;
+}
+
+.bottomdoc h3 {
+    color: #22233b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 25px 0px;
+}
+
+.sectionsix {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 30px 0px;
+}
+
+.photogallery {
+    width: 100%;
+    overflow: auto;
+}
+
+.sixpart {
+    width: 97%;
+    margin: auto;
+    overflow: auto;
+    padding: 30px 0px;
+}
+
+.gallery {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.samecard {
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.galleryone {
+    background-image: url(../images/apps-screen-1.jpg);
+}
+
+.gallerysec {
+    background-image: url(../images/apps-screen-2.jpg);
+}
+
+.gallerythird {
+    background-image: url(../images/apps-screen-3.jpg);
+}
+
+.galleryfourth {
+    background-image: url(../images/apps-screen-4.jpg);
+}
+
+.container-member {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px 30px 0px;
+}
+
+.card-member {
+    width: 85%;
+    overflow: auto;
+    margin: auto;
+}
+
+.card-team {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.schedule {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.schedule:hover {
+    background-color: #F5FBFF;
+}
+
+.schedule1 {
+    padding: 30px 10px;
+}
+
+.schedule2 {
+    padding: 30px 10px 40px 10px;
+}
+
+.schedule3 {
+    padding: 30px 10px 60px 10px;
+}
+
+.card-title {
+    text-align: center;
+    margin: 0;
+}
+
+.card-title h3 {
+    color: #1ea9fe;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.card-title h4 {
+    color: #22233b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.card-list {
+    padding: 10px 0px;
+}
+
+.card-list ul li {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    padding: 10px 0px;
+    list-style: none;
+    margin: 0;
+}
+
+.card-btn {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-btn3 {
+    padding-top: 60px;
+}
+
+.btn {
+    color: #26BAFF;
+    border: 2px solid #26BAFF;
+    padding: 17px 80px;
+    background-color: transparent;
+    border-radius: 1px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #26BAFF;
+}
+
+.check {
+    padding-right: 10px;
+}
+
+.sectionseven {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.container-founder {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+
+}
+
+.founder {
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.founderbox {
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-bottom: 20px;
+
+}
+
+.founder-part {
     width: 90%;
     margin: auto;
     overflow: auto;
 }
 
-.imageblock {
-    width: 25%;
-    float: left;
-    padding: 15px;
-    position: relative;
-
-}
-
-.blockbox1 {
-    height: 800px;
+.founderimg {
     width: 100%;
-    text-align: center;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: -20px;
 }
 
-.blockbox {
-    text-align: center;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-    padding: 40px 0px;
+.founderimage h4 {
+    color: #22233b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding-top: 15px;
+}
 
+.founderimage p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.sectioneight {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.conatiner-author {
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+    
+}
+
+.author-desc {
+}
+
+.author-desc p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    line-height: 26px;
+    padding: 30px 80px 10px 80px ;
+
+}
+
+.author-desc h4 {
+    color: #1ea9fe;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 5px 80px;
 }
