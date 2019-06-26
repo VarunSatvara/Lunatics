@@ -745,38 +745,33 @@ nav ul li a:hover {
 
 .sectioneight {
     width: 100%;
+    overflow: auto;
     margin: 0;
-    overflow: auto;
-}
-
-.conatiner-author {
-    width: 70%;
-    margin: auto;
-    overflow: auto;
-    
 }
 
 .author-desc {
+    width: 58%;
+    margin: auto;
+    overflow: auto;
+    padding: 70px 0px;
 }
 
-.author-desc p {
+.author-doc {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.author-doc h4,h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
-    line-height: 26px;
-    padding: 30px 80px 10px 80px ;
-
+    line-height: 25px;
+    padding: 20px;
 }
 
-.author-desc h4 {
-    color: #1ea9fe;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "Muli", sans-serif;
-    letter-spacing: normal;
-    margin: 0;
-    padding: 5px 80px;
+.author-doc h3 {
+   color:#1ea9fe;
+    font-weight: 600;
 }
