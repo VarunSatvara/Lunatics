@@ -760,7 +760,8 @@ nav ul li a:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.author-doc h4,h3 {
+.author-doc h4,
+h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
@@ -772,6 +773,50 @@ nav ul li a:hover {
 }
 
 .author-doc h3 {
-   color:#1ea9fe;
+    color: #1ea9fe;
     font-weight: 600;
+}
+
+.sectionnine {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.ninepart {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.ninedoc {
+    width: 50%;
+    margin: 0;
+    float: left;
+    padding: 20px 0px;
+}
+.ninedoc h5 {
+    color: #22233b;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.ninedoc p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    line-height: 26px;
+    padding-right: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+.sectionten{
+    width: 100%;
+    overflow: auto;
+    background-image: url(../images/)
 }
