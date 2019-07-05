@@ -783,40 +783,41 @@ h3 {
     overflow: auto;
 }
 
-.ninepart {
-    width: 80%;
+.container-blog {
+    width: 90%;
     margin: auto;
     overflow: auto;
+    padding: 50px 0px;
 }
 
-.ninedoc {
+.div-blog {
+    float: left;
     width: 50%;
     margin: 0;
-    float: left;
-    padding: 20px 0px;
 }
-.ninedoc h5 {
-    color: #22233b;
+
+.contain-doc {
+    background-color: rgba(236, 234, 251, 0.3);
+    margin: 15px;
+    padding: 25px 13px;
+}
+
+.contain-doc h5 {
+    color: #56576e;
     font-size: 16px;
     font-weight: 700;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
+    padding: 10px 0px;
 }
 
-.ninedoc p {
+.contain-doc p {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
-    line-height: 26px;
-    padding-right: 30px;
     margin: 0;
-    padding-top: 10px;
-}
-.sectionten{
-    width: 100%;
-    overflow: auto;
-    background-image: url(../images/)
+    padding: 10px 0px;
 }
