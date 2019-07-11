@@ -977,6 +977,10 @@ h3 {
     padding: 15px 10px;
 }
 
+.shadow-doc h5:hover {
+    color: #6858db;
+}
+
 .shadow-doc p {
     color: #56576e;
     font-size: 12px;
@@ -991,6 +995,7 @@ h3 {
     width: 80%;
     margin: auto;
     overflow: auto;
+    padding: 50px 0px;
 }
 
 .textname {
@@ -1028,4 +1033,169 @@ h3 {
     border-style: none;
     border: 1px #d2d2db solid;
     border-radius: 6px;
+}
+
+.contactbtn {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.cntbtn {
+    color: #26BAFF;
+    font-size: 16px;
+    font-weight: 550;
+    border: 1px solid #26BAFF;
+    padding: 20px 50px;
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.cntbtn:hover {
+    color: #fff;
+    background-color: #26BAFF;
+}
+
+.footer {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: #f7f7f7;
+}
+
+.footercenter {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.footer1 {
+    width: 25%;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+.ftleft1 {
+    width: 100%;
+    margin: 0;
+}
+
+.ftimg {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.ftleft1 p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.btp {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.iconawesome ul {
+    padding: 0px 25px;
+    overflow: auto;
+}
+
+.iconawesome ul li {
+    float: left;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+.smicon {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 0px;
+    text-align: center;
+}
+
+.fb {
+    background-color: #3b5999;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.google {
+    background-color: #dd4b39;
+}
+
+.youtube {
+    background-color: #e4405f;
+}
+
+.ftleft2 {
+    width: 100%;
+    margin: 0;
+}
+
+.ftleft2 h4 {
+    color: #22233b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+}
+.ftleft2 ul{
+    padding: 0px;
+}
+
+.ftleft2 ul li {
+    list-style: none;
+    text-align: left;
+    padding: 8px 0px;
+    
+}
+.ftleft2 ul li a{
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    text-decoration-line: none;
+}
+.ftleft3 {
+    width: 100%;
+    margin: 0;
+}
+
+.ftleft3 h4 {
+    color: #22233b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+}
+.fttxt{
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    
 }
