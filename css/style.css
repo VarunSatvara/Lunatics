@@ -722,7 +722,13 @@ nav ul li a:hover {
 .founderimg {
     width: 100%;
 }
-
+.founderimage:hover{
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(-1%);
+}
 .founderimage h4 {
     color: #22233b;
     font-size: 18px;
@@ -1147,6 +1153,7 @@ h3 {
 .ftleft2 {
     width: 100%;
     margin: 0;
+    padding-left: 30px;
 }
 
 .ftleft2 h4 {
@@ -1158,7 +1165,8 @@ h3 {
     margin: 0;
     text-align: left;
 }
-.ftleft2 ul{
+
+.ftleft2 ul {
     padding: 0px;
 }
 
@@ -1166,9 +1174,10 @@ h3 {
     list-style: none;
     text-align: left;
     padding: 8px 0px;
-    
+
 }
-.ftleft2 ul li a{
+
+.ftleft2 ul li a {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
@@ -1176,6 +1185,7 @@ h3 {
     letter-spacing: normal;
     text-decoration-line: none;
 }
+
 .ftleft3 {
     width: 100%;
     margin: 0;
@@ -1190,12 +1200,82 @@ h3 {
     margin: 0;
     text-align: left;
 }
-.fttxt{
-    color: #56576e;
+
+.ftleft3 ul {
+    padding: 0px;
+    text-align: left;
+}
+
+.ftleft3 ul li {
+    list-style: none;
+    margin: 0;
+    padding: 3px 0px;
+}
+
+.ftleft3 span {
+    color: #22233b;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 700;
     font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
-    
+    padding-left: 5px;
+}
+
+.ftleft3 p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    text-decoration-line: none;
+    padding-right: 5px;
+}
+
+.ftleft4 {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+.ftleft4 h4 {
+    color: #22233b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.ftleft4 p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    letter-spacing: normal;
+    text-decoration-line: none;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.ftsub {
+    padding: 30px 0px;
+    margin: 0;
+}
+
+.ftsubbtn {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid #26BAFF;
+}
+
+.sub-button {
+    color: #fff;
+    padding: 20px;
+    border: none;
+    background-color: #26BAFF;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -50px;
 }
